@@ -16,7 +16,6 @@ export const Header: React.FC = () => {
             <a href="#abstract" className="text-sm font-medium text-slate-600 hover:text-blue-600 transition-colors">Abstract</a>
             <a href="#methodology" className="text-sm font-medium text-slate-600 hover:text-blue-600 transition-colors">Methodology</a>
             <a href="#results" className="text-sm font-medium text-slate-600 hover:text-blue-600 transition-colors">Results</a>
-            <a href="#authors" className="text-sm font-medium text-slate-600 hover:text-blue-600 transition-colors">Authors</a>
           </nav>
 
           <div className="flex items-center gap-4">
