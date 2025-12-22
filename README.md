@@ -39,7 +39,28 @@ This is the project website for the paper **"Evolutionary reinforcement learning
 
 ## Deployment to GitHub Pages
 
-1. Push this repository to GitHub.
-2. Go to Settings > Pages.
-3. Select 'GitHub Actions' or deploy the `dist` folder from a branch.
-   - *Note:* The project is already configured with `base: './'` for relative path routing.
+This project is configured for automatic deployment to GitHub Pages using GitHub Actions.
+
+### Automatic Deployment
+
+The site will automatically deploy when you push to the `main` branch:
+
+1. Push your changes to the `main` branch
+2. GitHub Actions will automatically build and deploy the site
+3. Your site will be available at `https://<username>.github.io/<repository-name>/`
+
+### Manual Setup (First Time)
+
+1. Go to your repository Settings > Pages
+2. Under "Build and deployment", select **Source: GitHub Actions**
+3. The workflow is already configured in `.github/workflows/deploy.yml`
+4. Push to the `main` branch to trigger the first deployment
+
+### Manual Deployment
+
+You can also trigger a manual deployment:
+1. Go to the Actions tab in your repository
+2. Select the "Deploy to GitHub Pages" workflow
+3. Click "Run workflow" and select the branch
+
+**Note:** The project uses `base: './'` in `vite.config.ts` for relative path routing, making it compatible with GitHub Pages subdirectory deployment.
