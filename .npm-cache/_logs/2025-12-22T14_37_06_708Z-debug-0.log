@@ -5,12 +5,12 @@
 4 silly config load:file:/Users/chenhong/Downloads/evorl_page/.npmrc
 5 silly config load:file:/Users/chenhong/.npmrc
 6 silly config load:file:/opt/homebrew/etc/npmrc
-7 verbose title npm list react
-8 verbose argv "list" "react"
-9 verbose logfile logs-max:10 dir:/Users/chenhong/Downloads/evorl_page/.npm-cache/_logs/2025-12-22T13_33_08_421Z-
-10 verbose logfile /Users/chenhong/Downloads/evorl_page/.npm-cache/_logs/2025-12-22T13_33_08_421Z-debug-0.log
-11 silly logfile done cleaning log files
-12 silly packumentCache heap:2348810240 maxSize:587202560 maxEntrySize:293601280
+7 verbose title npm run build
+8 verbose argv "run" "build"
+9 verbose logfile logs-max:10 dir:/Users/chenhong/Downloads/evorl_page/.npm-cache/_logs/2025-12-22T14_37_06_708Z-
+10 verbose logfile /Users/chenhong/Downloads/evorl_page/.npm-cache/_logs/2025-12-22T14_37_06_708Z-debug-0.log
+11 silly logfile start cleaning logs, removing 1 files
+12 silly logfile done cleaning log files
 13 verbose cwd /Users/chenhong/Downloads/evorl_page
 14 verbose os Darwin 25.2.0
 15 verbose node v25.2.1
