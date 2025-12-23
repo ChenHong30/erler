@@ -19,7 +19,7 @@ function App() {
       <footer className="bg-slate-900 text-slate-400 py-12 border-t border-slate-800">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col md:flex-row justify-between items-center gap-6">
           <div className="text-sm text-center md:text-left">
-            <p>© 2026 ERLER Project. Published in Applied Soft Computing.</p>
+            <p>© 2025 ERLER Project. Published in Applied Soft Computing.</p>
             <p className="mt-1 opacity-75">Page Developed by Gemini CLI</p>
           </div>
           <div className="flex items-center gap-6">
