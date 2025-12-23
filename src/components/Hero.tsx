@@ -58,7 +58,7 @@ export const Hero: React.FC = () => {
                 <ArrowRight size={16} />
               </a>
               <a 
-                href="1-s2.0-S156849462501693X-main.pdf"
+                href="https://www.sciencedirect.com/science/article/pii/S156849462501693X"
                 target="_blank"
                 className="inline-flex items-center justify-center gap-2 px-6 py-2.5 rounded-full bg-white text-slate-700 font-medium border border-slate-200 hover:bg-slate-50 hover:border-slate-300 transition-all shadow-sm"
               >

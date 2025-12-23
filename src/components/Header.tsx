@@ -8,12 +8,12 @@ export const Header: React.FC = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           <div className="flex items-center gap-3">
-            <Logo className="w-10 h-10" />
+            <Logo className="w-16 h-16" />
             <span className="font-bold text-xl text-slate-900 tracking-tight">ERLER</span>
           </div>
           
           <nav className="hidden md:flex gap-8">
-            <a href="#abstract" className="text-sm font-medium text-slate-600 hover:text-blue-600 transition-colors">Abstract</a>
+            <a href="#tldr" className="text-sm font-medium text-slate-600 hover:text-blue-600 transition-colors">TLDR</a>
             <a href="#methodology" className="text-sm font-medium text-slate-600 hover:text-blue-600 transition-colors">Methodology</a>
             <a href="#results" className="text-sm font-medium text-slate-600 hover:text-blue-600 transition-colors">Results</a>
 
